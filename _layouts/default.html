@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+		  <img src="assets/images/logo.png" />
+		  <ol>
+			  <li><a href="/">Home</a></li>
+			  <li><a href="/slack">Community</a></li>
+			  <li>
+				  <a href="#">Support</a>
+				  <ol>
+					  <li><a href="/get-started">Get Started</a></li>
+					  <li><a href="/documentation">Documentation</a></li>
+					  <li><a href="/github-repo">GitHub Repo</a></li>
+					  <li><a href="/help-desk">Help Desk</a></li>
+				  </ol>
+			  </li>
+			  <li><a href="/blog">Dev Blog</a></li>
+			  <li><a href="https://altvr.com/">AltVR.com</a></li>
+		  </ol>
+      </header>
+      <section>
+
+	  <h1>{{ page.title }}</h1>
+
+      {{ content }}
+
+      </section>
+      <footer>
+		  <ol>
+		  	<li><a href="/contact">Contact Us</a></li>
+		  	<li><a href="/privacy">Privacy Policy</a></li>
+		  	<li><a href="/terms">Terms and Conditions</a></li>
+		  </ol>
+		  <ol>
+		  	<li><a href="/twitter"></a></li>
+		  	<li><a href="/youtube"></a></li>
+		  	<li><a href="/facebook"></a></li>
+		  </ol>
+		  <span>&copy;2017 AltspaceVR, Inc. AltspaceVR and altvr are trademarks of AltspaceVR, Inc.</span>
+		  <span>All other trademarks are the property of their respective owners. All rights reserved.</span>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+  {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+  {% endif %}
+  </body>
+</html>

@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Varela Round", sans-serif;
+}
+
+header {
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+	float: none;
+	position: relative;
+}
+
+section {
+	float: none;
+}
