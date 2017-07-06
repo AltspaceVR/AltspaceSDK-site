@@ -1,24 +1,201 @@
 ---
 ---
 
+@import "animate.min.css";
 @import "{{ site.theme }}";
 
 body {
 	font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
+$varela: "Varela Round", sans-serif;
+$bannerHeight: 340px;
+$linkHover: #28beff;
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Varela Round", sans-serif;
+	font-family: $varela;
+	margin: 1em 0;
 }
+
+a { color: #0090d8; }
+a:hover, a:focus { color: $linkHover; text-decoration: none; }
 
 header {
 	display: block;
 	width: 100%;
-	border: 1px solid black;
 	float: none;
 	position: relative;
+	padding: 0;
+}
+
+header li {
+	float: none;
+	width: auto;
+	display: inline;
+	border: none;
+}
+
+header li:first-child a, header li:last-child a {
+	border-radius: 0;
 }
 
 section {
 	float: none;
+	width: auto;
+	padding: 0;
+	margin: 2em 0 5em 0;
+}
+
+ul {
+	margin: 0;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	float: none;
+	text-align: center;
+	background-color: #262626;
+	color: #6c6c6c;
+	padding: 1em 0;
+	margin: 1em 0 0 0;
+}
+
+footer a {
+	color: #007bb9;
+}
+
+footer section {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+footer hr {
+	background-color: #6c6c6c;
+}
+
+footer .social {
+	margin-top: 1em;
+}
+footer .social li {
+	margin: 0 1em;
+	display: inline;
+}
+
+footer ol {
+	margin: 0 2em;
+}
+
+footer ol, ol.banner, ol.cta {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	margin: 2em;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	border: none;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	background-image: none;
+	color: $linkHover
+}
+
+.centered {
+	text-align: center;
+}
+
+.banner {
+	height: $bannerHeight;
+	background-color: black;
+	overflow: hidden;
+}
+
+.motto {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: $bannerHeight;
+	display: block;
+	animation-delay: 7s;
+	padding: 3em 0;
+}
+.motto-word, .motto-phrase {
+	color: white;
+	font-size: 24pt;
+	font-family: $varela;
+	margin: 1em 0;
+	padding: 1em 0;
+}
+.motto-phrase {
+	font-size: 16pt;
+}
+#motto-1 { animation-delay: 1s; }
+#motto-2 { animation-delay: 2s; }
+#motto-3 { animation-delay: 3s; }
+#motto-4 { animation-delay: 4s; display: block; }
+
+#reel {
+	width: 100%;
+	height: $bannerHeight;
+	transform: translateY(60px) scale(1.5);
+	pointer-events: none;
+}
+
+#reel.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
+.cta {
+}
+.cta > li {
+	display: inline-block;
+	border: 1px solid grey;
+	margin: 0.5em;
+	padding: 1em 0;
+	width: 14em;
+}
+.cta .fa {
+	display: block;
+}
+
+.fineprint { font-size: 85%; }
+em.fineprint { font-weight: bold; font-style: normal; }
+
+figure { margin: 1em 0; }
+figcaption { font-size: 90%; font-style: italic; }
+
+li > img, p > img {
+	width: 16px;
+	height: 16px;
+}
+
+pre {
+	border-radius: 0;
+}
+li code, p code {
+	background: #F8F8F8;
+	border: 1px solid #E5E5E5;
+	padding: 0.2em;
+}
+
+figure, a[data-featherlight] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+
+	img, video {
+		width: 640px;
+	}
 }
