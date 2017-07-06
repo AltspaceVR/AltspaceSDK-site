@@ -1,6 +1,6 @@
 ---
 title: Apps, Enclosures, and Displays
-permalink: apps-enclosures-and-displays
+permalink: apps-enclosures-and-displays/
 ---
 
 <figure>

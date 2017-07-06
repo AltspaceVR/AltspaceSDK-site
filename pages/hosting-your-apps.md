@@ -1,6 +1,6 @@
 ---
 title: Hosting Your AltspaceVR Apps
-permalink: hosting-your-apps
+permalink: hosting-your-apps/
 ---
 
 AltspaceVR’s SDK uses standard web infrastructure to load its code, models, and textures, so every person that views an

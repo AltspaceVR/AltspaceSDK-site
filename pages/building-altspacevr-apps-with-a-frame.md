@@ -1,6 +1,6 @@
 ---
 title: Building AltspaceVR Apps With A-Frame
-permalink: building-altspacevr-apps-with-a-frame
+permalink: building-altspacevr-apps-with-a-frame/
 ---
 
 When it comes to building something quick in AltspaceVR, it’s hard to beat [A-Frame](https://aframe.io/). It has a

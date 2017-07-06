@@ -1,6 +1,6 @@
 ---
 title: Local Development Tutorial
-permalink: local-dev
+permalink: local-dev/
 ---
 
 This tutorial will walk you through testing, modifying, and debugging AltspaceVR web apps using a local development
@@ -55,12 +55,12 @@ created a [starter project](https://github.com/AltspaceVR/altspace-webpack-start
 
 ## Tips
 
-1. Non-VR mode can be useful for testing. Simply start the client with your HMD disconnected or turned off or use the 
+1. Non-VR mode can be useful for testing. Simply start the client with your HMD disconnected or turned off or use the
     `-disableVR` command line flag.
 2. The client and your text editor can be docked side by side while in windowed mode.
-    * Use shortcut keys to put the client into windowed mode, then move or snap it to the side of your screen.  
-        Mac: `Left Command + Left ALT + W` to toggle windowed mode, then move the window to a convenient location.  
-        Windows: `Left CTRL + Left ALT + W` to toggle windowed mode, then `Windows + Right Arrow` to snap window to the right  
+    * Use shortcut keys to put the client into windowed mode, then move or snap it to the side of your screen.
+        Mac: `Left Command + Left ALT + W` to toggle windowed mode, then move the window to a convenient location.
+        Windows: `Left CTRL + Left ALT + W` to toggle windowed mode, then `Windows + Right Arrow` to snap window to the right
         * _In Windows, if the window remains black you may need to snap or resize it a couple times for an image to appear_
     * Alternatively, you can hold Shift or Option while clicking “Enter AltspaceVR” to configure resolution using the
         configuration window.
