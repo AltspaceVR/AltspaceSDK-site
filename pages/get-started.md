@@ -1,6 +1,6 @@
 ---
 title: Get Started
-permalink: get-started
+permalink: get-started/
 ---
 
 Welcome to the AltspaceVR Software Development Kit! These tutorials will help you get started:
@@ -16,5 +16,5 @@ Welcome to the AltspaceVR Software Development Kit! These tutorials will help yo
 - [Webpack Starter Project](/altspace-webpack-starter)<br/>
 	If you're comfortable with the command line and npm, you can jump right in with our Webpack starter project.
 - [Documentation](http://altspacevr.github.io/AltspaceSDK/doc/)<br/>
-	Once you get going with the SDK, you will likely have deeper questions. Check out the documentation for the 
+	Once you get going with the SDK, you will likely have deeper questions. Check out the documentation for the
 	answers you seek!
