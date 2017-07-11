@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: slack
+permalink: slack/
 message: the AltspaceVR SDK Slack
 redirect: https://altspacevr-slackin.herokuapp.com/
 ---
