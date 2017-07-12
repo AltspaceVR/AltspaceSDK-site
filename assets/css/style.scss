@@ -198,7 +198,7 @@ aside {
     @include bannerHeight;
     width: 100%;
     @media screen and (min-width: 768px) {
-        transform: translateY(60px) scale(1.5);
+        transform: translateY(90px) scale(1.6);
     }
     @media screen and (max-width: 768px) {
         transform: translateY(0) scale(1);
