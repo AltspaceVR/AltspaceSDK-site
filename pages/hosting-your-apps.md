@@ -107,19 +107,19 @@ locally, then push your changes back up to GitHub. The “correct” way to do t
 here, you should check out some of the below resources.
 
 *   Useful software:
-	*   The official [Git client](https://git-scm.com/)
-	*   [GitHub Desktop](https://desktop.github.com/) for Windows and Mac
-	*   Some nice text editors: [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/)
-		and [Notepad++](https://notepad-plus-plus.org/)
-	*   A local web server. Prepros ([Windows](http://prepros.io.s3.amazonaws.com/installers/Prepros-Windows-5.10.2.exe),
-		[Mac](http://prepros.io.s3.amazonaws.com/installers/Prepros-Mac-5.10.2.zip)) or
-		[live-server](http://tapiov.net/live-server/)
-		are recommended.
-	*   The AltspaceVR Debugger ([Windows](https://sdk.altvr.com/debugger/DebuggerWindows.zip),
-		[Mac](https://sdk.altvr.com/debugger/DebuggerMacOSX.zip))
+    *   The official [Git client](https://git-scm.com/)
+    *   [GitHub Desktop](https://desktop.github.com/) for Windows and Mac
+    *   Some nice text editors: [Visual Studio Code](https://code.visualstudio.com/), [Atom](https://atom.io/)
+        and [Notepad++](https://notepad-plus-plus.org/)
+    *   A local web server. Prepros ([Windows](http://prepros.io.s3.amazonaws.com/installers/Prepros-Windows-5.10.2.exe),
+        [Mac](http://prepros.io.s3.amazonaws.com/installers/Prepros-Mac-5.10.2.zip)) or
+        [live-server](http://tapiov.net/live-server/)
+        are recommended.
+    *   The AltspaceVR Debugger ([Windows](https://sdk.altvr.com/debugger/DebuggerWindows.zip),
+        [Mac](https://sdk.altvr.com/debugger/DebuggerMacOSX.zip))
 *   Tutorials and other resources:
-	*   AltspaceVR’s [Local Development Tutorial](/local-dev/)
-	*   [git – the simple guide](https://rogerdudler.github.io/git-guide/)
+    *   AltspaceVR’s [Local Development Tutorial](/local-dev/)
+    *   [git – the simple guide](https://rogerdudler.github.io/git-guide/)
 
 ## What’s Next?
 

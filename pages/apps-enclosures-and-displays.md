@@ -5,8 +5,8 @@ permalink: apps-enclosures-and-displays/
 ---
 
 <figure>
-	<video id="vid" src="/assets/videos/load-app.mp4" autoplay loop></video>
-	<figcaption>TL;DR</figcaption>
+    <video id="vid" src="/assets/videos/load-app.mp4" autoplay loop></video>
+    <figcaption>TL;DR</figcaption>
 </figure>
 
 AltspaceVR is a fun and interesting place to spend your time, due in no small part to the wonderful variety of
@@ -23,8 +23,8 @@ of an event, and to users flagged as developers. You can apply for this develope
 the enclosures, but not control them.
 
 <figure>
-	<img src="/assets/images/enclosure.gif" />
-	<figcaption>How to recognize an enclosure. Displays do not have corner markers.</figcaption>
+    <img src="/assets/images/enclosure.gif" />
+    <figcaption>How to recognize an enclosure. Displays do not have corner markers.</figcaption>
 </figure>
 
 Think of enclosures as web browsers that can take up space. When you type a regular website into an enclosure

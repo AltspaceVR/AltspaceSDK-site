@@ -30,17 +30,17 @@ look at the demo below. In fact, load this page in an enclosure and you’ll see
 
 <figure>
 <a-scene embedded altspace='vertical-align: bottom;' style='height: 480px;'><br />
-	<a-assets><br />
-		<img id='moon' src='/assets/images/moon.jpg'/>
-		<img id='stars' src='/assets/images/stars.png'/>
-	</a-assets><br />
-	<a-sphere position='0 1.5 0' material='shader: flat; src: #moon;'><br />
-		<a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/><br />
-	</a-sphere><br />
-	<a-sky src='#stars' radius='2500'></a-sky><br />
-	<a-entity position='0 0 2'><br />
-		<a-camera></a-camera><br />
-	</a-entity><br />
+    <a-assets><br />
+        <img id='moon' src='/assets/images/moon.jpg'/>
+        <img id='stars' src='/assets/images/stars.png'/>
+    </a-assets><br />
+    <a-sphere position='0 1.5 0' material='shader: flat; src: #moon;'><br />
+        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/><br />
+    </a-sphere><br />
+    <a-sky src='#stars' radius='2500'></a-sky><br />
+    <a-entity position='0 0 2'><br />
+        <a-camera></a-camera><br />
+    </a-entity><br />
 </a-scene>
 </figure>
 
@@ -55,25 +55,25 @@ This demo was constructed with a mere dozen lines of HTML (plus some boilerplate
 <!-- set up the scene -->
 <a-scene altspace='vertical-align: bottom;'>
 
-	<!-- preload all our textures -->
-	<a-assets>
-		<img id='moon' src='assets/moon.jpg'/>
-		<img id='stars' src='assets/stars.png'/>
-	</a-assets>
+    <!-- preload all our textures -->
+    <a-assets>
+        <img id='moon' src='assets/moon.jpg'/>
+        <img id='stars' src='assets/stars.png'/>
+    </a-assets>
 
-	<!-- add the moon to the scene -->
-	<a-sphere position='0 1.5 0' material='src: #moon;'>
-		<!-- add an animation to make it rotate -->
-		<a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
-	</a-sphere>
+    <!-- add the moon to the scene -->
+    <a-sphere position='0 1.5 0' material='src: #moon;'>
+        <!-- add an animation to make it rotate -->
+        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
+    </a-sphere>
 
-	<!-- add the backdrop of stars -->
-	<a-sky src='#stars' radius='2500'></a-sky>
+    <!-- add the backdrop of stars -->
+    <a-sky src='#stars' radius='2500'></a-sky>
 
-	<!-- add a view camera (2d only) -->
-	<a-entity position='0 0 2'>
-		<a-camera></a-camera>
-	</a-entity>
+    <!-- add a view camera (2d only) -->
+    <a-entity position='0 0 2'>
+        <a-camera></a-camera>
+    </a-entity>
 
 </a-scene>
 
@@ -105,8 +105,8 @@ you don’t need to set up your own server.
 
 Of course, JS Bin will be cumbersome for an app of any significant size, so you’ll want to make your own arrangements
 for hosting when your app starts coming together. One popular option is [GitHub Pages](https://pages.github.com/), where
-	you upload your files, and they host them as part of their suite of tools. This is the recommended option for
-	medium-sized projects.
+    you upload your files, and they host them as part of their suite of tools. This is the recommended option for
+    medium-sized projects.
 
 ## The Entity-Component-System Pattern
 
@@ -138,7 +138,7 @@ most commonly included components on that entity. For the full list of primitive
 
 ```html
 <a-scene altspace='vertical-align: bottom;'>
-	...
+    ...
 </a-scene>
 ```
 
@@ -151,8 +151,8 @@ AltspaceVR to position our app relative to the floor instead of relative to the 
 
 ```html
 <a-assets>
-	<img id='moon' src='assets/moon.jpg'/>
-	<img id='stars' src='assets/stars.png'/>
+    <img id='moon' src='assets/moon.jpg'/>
+    <img id='stars' src='assets/stars.png'/>
 </a-assets>
 ```
 
@@ -170,7 +170,7 @@ particular model format.
 
 ```html
 <a-sphere position='0 1.5 0' material='src: #moon;'>
-	...
+    ...
 </a-sphere>
 ```
 

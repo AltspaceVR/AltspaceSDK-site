@@ -12,5 +12,5 @@ the link below!
 [Developing RC Deathmatch in AltspaceVR w/ three.js by developer Elijah Newman-Gomez](http://jumpstartsdk.com/rcdm.html)
 
 <figure>
-	<img src="/assets/images/rcdm01.jpg" />
+    <img src="/assets/images/rcdm01.jpg" />
 </figure>
