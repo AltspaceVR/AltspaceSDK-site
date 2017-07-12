@@ -1,25 +1,24 @@
 ---
 ---
 
-@import "animate.min.css";
 @import "{{ site.theme }}";
 
 body {
 	font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
-	padding: 0;
+	padding: 0 0.5em;
 	margin: 0;
 }
 
 $varela: "Varela Round", sans-serif;
-$bannerHeight: 340px;
+$link: #0090d8;
 $linkHover: #28beff;
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $varela;
-	margin: 1em 0;
+	margin: 1em 0 0.5em;
 }
 
-a { color: #0090d8; }
+a { color: $link; }
 a:hover, a:focus { color: $linkHover; text-decoration: none; }
 
 header {
@@ -28,17 +27,30 @@ header {
 	float: none;
 	position: relative;
 	padding: 0;
-}
 
-header li {
-	float: none;
-	width: auto;
-	display: inline;
-	border: none;
-}
+	li {
+		float: none;
+		width: auto;
+		display: inline;
+		border: none;
+		height: auto;
+	}
 
-header li:first-child a, header li:last-child a {
-	border-radius: 0;
+	li:first-child a, li:last-child a {
+		border-radius: 0;
+	}
+
+	.navbar-toggle {
+		border: 1px solid $linkHover;
+		border-radius: 0;
+		margin: 2em;
+		&.collapsed, & .icon-bar {
+			border-color: $link;
+		}
+		.icon-bar {
+			border: 1px solid $linkHover;
+		}
+	}
 }
 
 section {
@@ -46,6 +58,7 @@ section {
 	width: auto;
 	padding: 0;
 	margin: 2em 0 5em 0;
+	border: none;
 }
 
 ul {
@@ -62,35 +75,43 @@ footer {
 	color: #6c6c6c;
 	padding: 1em 0;
 	margin: 1em 0 0 0;
+
+	a {
+		color: #007bb9;
+	}
+
+	section {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
+
+	hr {
+		background-color: #6c6c6c;
+		margin: 1em;
+	}
+
+	.links {
+		font-size: 9pt;
+		margin: 0 1em;
+	}
+
+	.social {
+		margin-top: 1em;
+
+		li {
+			margin: 0 0.5em;
+			display: inline;
+		}
+	}
+
+	ol {
+		margin: 0 2em;
+	}
 }
 
-footer a {
-	color: #007bb9;
-}
 
-footer section {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-}
-
-footer hr {
-	background-color: #6c6c6c;
-}
-
-footer .social {
-	margin-top: 1em;
-}
-footer .social li {
-	margin: 0 1em;
-	display: inline;
-}
-
-footer ol {
-	margin: 0 2em;
-}
-
-footer ol, ol.banner, ol.cta {
+footer ol, ol.banner, ol.cta, ol.posts, ol.recent-posts {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -100,34 +121,54 @@ hr {
 	margin: 2em;
 }
 
+aside {
+	margin: 2em 0;
+}
+
 .dropdown-menu {
 	border-radius: 0;
 	border: none;
+
+	> li > a:hover, > li > a:focus {
+		background-image: none;
+		color: $linkHover
+	}
 }
 
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	background-image: none;
-	color: $linkHover
-}
 
 .centered {
 	text-align: center;
 }
 
+@mixin bannerHeight {
+	@media screen and (min-width: 768px) {
+		height: 340px;
+	}
+
+	@media screen and (max-width: 768px) {
+		height: 200px;
+	}
+}
+
 .banner {
-	height: $bannerHeight;
+	@include bannerHeight;
 	background-color: black;
 	overflow: hidden;
 }
 
 .motto {
+	@include bannerHeight;
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: $bannerHeight;
 	display: block;
 	animation-delay: 7s;
-	padding: 3em 0;
+	@media screen and (min-width: 768px) {
+		padding: 6em 0;
+	}
+	@media screen and (max-width: 768px) {
+		padding: 1em 0;
+	}
 }
 .motto-word, .motto-phrase {
 	color: white;
@@ -145,9 +186,14 @@ hr {
 #motto-4 { animation-delay: 4s; display: block; }
 
 #reel {
+	@include bannerHeight;
 	width: 100%;
-	height: $bannerHeight;
-	transform: translateY(60px) scale(1.5);
+	@media screen and (min-width: 768px) {
+		transform: translateY(60px) scale(1.5);
+	}
+	@media screen and (max-width: 768px) {
+		transform: translateY(0) scale(1);
+	}
 	pointer-events: none;
 }
 
@@ -157,16 +203,16 @@ hr {
 }
 
 .cta {
-}
-.cta > li {
-	display: inline-block;
-	border: 1px solid grey;
-	margin: 0.5em;
-	padding: 1em 0;
-	width: 14em;
-}
-.cta .fa {
-	display: block;
+	li {
+		display: inline-block;
+		border: 1px solid grey;
+		margin: 0.5em;
+		padding: 1em 0;
+		width: 11em;
+	}
+	.fa {
+		display: block;
+	}
 }
 
 .fineprint { font-size: 85%; }
@@ -196,6 +242,47 @@ figure, a[data-featherlight] {
 	flex-flow: column;
 
 	img, video {
-		width: 640px;
+		width: auto;
+		max-width: 100%;
 	}
+}
+
+.posts .post-item {
+	margin: 1em 0;
+	display: flex;
+	border: 1px solid #eee;
+	padding: 0.2em;
+	.thumbnail {
+		width: 14em;
+		height: 14em;
+		flex: 14em 0 0;
+		margin: 0 0.5em;
+		box-shadow: none;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.details {
+		padding-top: 1em;
+
+		.title {
+			color: inherit;
+			font-size: 16pt;
+			display: inline;
+		}
+		.excerpt {
+			color: #888;
+		}
+	}
+}
+
+.post-date {
+	font-family: $varela;
+	position: relative;
+	top: -0.5em;
+	font-size: 13pt;
+}
+
+.pagination {
+	text-align: center;
 }

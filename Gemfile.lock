@@ -194,6 +194,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
+  jekyll-redirect-from
   jekyll-theme-minimal
 
 BUNDLED WITH

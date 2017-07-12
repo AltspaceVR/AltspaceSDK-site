@@ -13,8 +13,8 @@ Welcome to the AltspaceVR Software Development Kit! These tutorials will help yo
 	Share your app by hosting it on JS Bin or GitHub.
 - [Local Development Tutorial](/local-dev)<br/>
 	Setting up a local web server and building projects with the AltspaceVR SDK!
-- [Webpack Starter Project](/altspace-webpack-starter)<br/>
+- [Webpack Starter Project](https://github.com/AltspaceVR/altspace-webpack-starter)<br/>
 	If you're comfortable with the command line and npm, you can jump right in with our Webpack starter project.
-- [Documentation](http://altspacevr.github.io/AltspaceSDK/doc/)<br/>
+- [Documentation](https://altspacevr.github.io/AltspaceSDK/doc/)<br/>
 	Once you get going with the SDK, you will likely have deeper questions. Check out the documentation for the
 	answers you seek!

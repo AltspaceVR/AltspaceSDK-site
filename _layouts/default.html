@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 		<meta name="viewport" content="width=device-width">
 
-		<title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}AltspaceVR Developer Portal</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 		<link href="/assets/css/font-awesome.min.css" rel="stylesheet">
@@ -19,6 +19,8 @@
 		<script src="/assets/js/featherlight.min.js"></script>
 		<link href="/assets/css/featherlight.min.css" rel="stylesheet">
 
+		<link href="/assets/css/animate.min.css" rel="stylesheet">
+
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 		<!--[if lt IE 9]>
@@ -27,8 +29,20 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header>
-			<img src="/assets/images/logo.png" />
+			<header class="navbar">
+				<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			<a href="/"><img src="/assets/images/logo.png" /></a>
+				</div>
+			<div class="collapse navbar-collapse" id="main-nav">
 			<ol class="nav navbar-nav navbar-right">
 				<li><a href="/">Home</a></li>
 				<li><a href="/slack">Community</a></li>
@@ -39,19 +53,27 @@
 					</a>
 					<ol class="dropdown-menu">
 						<li><a href="/get-started">Get Started</a></li>
-						<li><a href="/documentation">Documentation</a></li>
-						<li><a href="/github">GitHub Repo</a></li>
-						<li><a href="/help-desk">Help Desk</a></li>
+						<li><a href="https://altspacevr.github.io/AltspaceSDK/doc/">Documentation</a></li>
+						<li><a href="https://github.com/AltspaceVR/AltspaceSDK">GitHub Repo</a></li>
+						<li><a href="https://help.altvr.com/">Help Desk</a></li>
 					</ol>
 				</li>
 				<li><a href="/blog">Dev Blog</a></li>
 				<li><a href="https://altvr.com/">AltVR.com</a></li>
 			</ol>
+			</div>
 			</header>
 			<section>
 
 			{% if page.title %}
-			<h1>{{ page.title }}</h1>
+			<h1>
+				{% if page.parent %}
+				<a href="/{{ page.parent | slugify }}">{{ page.parent }}</a> -
+				{% elsif layout.parent %}
+				<a href="/{{ layout.parent | slugify }}">{{ layout.parent }}</a> -
+				{% endif %}
+				{{ page.title }}
+			</h1>
 			{% endif %}
 
 			{{ content }}
@@ -59,27 +81,28 @@
 			</section>
 			<footer>
 				<section>
-				<ol>
-					<li><a href="/contact">Contact Us</a></li>
-					<li><a href="/privacy">Privacy Policy</a></li>
-					<li><a href="/terms">Terms and Conditions</a></li>
+				<ol class="links">
+					<li><a href="https://altvr.com/contact/">Contact Us</a></li>
+					<li><a href="https://altvr.com/privacy-policy/">Privacy Policy</a></li>
+					<li><a href="https://altvr.com/terms-of-service/">Terms of Service</a></li>
 				</ol>
 				<ol class="social">
-					<li><a class="fa fa-twitter fa-lg" href="/twitter"></a></li>
-					<li><a class="fa fa-youtube fa-lg" href="/youtube"></a></li>
-					<li><a class="fa fa-facebook fa-lg" href="/facebook"></a></li>
+					<li><a class="fa fa-twitter fa-lg" href="https://twitter.com/altspacevr"></a></li>
+					<li><a class="fa fa-facebook fa-lg" href="https://facebook.com/altspacevr"></a></li>
+					<li><a class="fa fa-reddit-alien fa-lg" href="https://www.reddit.com/r/AltspaceVR/"></a></li>
+					<li><a class="fa fa-youtube fa-lg" href="https://www.youtube.com/channel/UC4mkmfU3NU72V7_3qZestpA"></a></li>
+					<li><a class="fa fa-linkedin fa-lg" href="https://www.linkedin.com/company/3178875"></a></li>
 				</ol>
 				</section>
 				<hr/>
 				<em class="fineprint">
-					&copy;2017 AltspaceVR, Inc. AltspaceVR and altvr are trademarks of AltspaceVR, Inc.
+					&copy; {{ site.time | date: "%Y" }} by AltspaceVR® and altvr&trade; are trademarks of AltspaceVR, Inc.
 				</em><br/>
 				<span class="fineprint">
 					All other trademarks are the property of their respective owners. All rights reserved.
 				</span>
 			</footer>
 		</div>
-		<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 	{% if site.google_analytics %}
 		<script>

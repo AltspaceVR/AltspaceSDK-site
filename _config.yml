@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
-repository: AltspaceVR/test-dev-site
+repository: AltspaceVR/AltspaceSDK-site
 permalink: pretty
+paginate: 4
+paginate_path: '/blog/page:num/'
+excerpt_separator: '<!--more-->'

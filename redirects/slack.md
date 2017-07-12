@@ -1,6 +1,7 @@
 ---
 layout: redirect
 permalink: slack/
-message: the AltspaceVR SDK Slack
-redirect: https://altspacevr-slackin.herokuapp.com/
+redirect:
+	to: https://altspacevr-slackin.herokuapp.com/
+	message: the AltspaceVR SDK Slack
 ---

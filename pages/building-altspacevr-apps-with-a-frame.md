@@ -1,4 +1,5 @@
 ---
+parent: Get Started
 title: Building AltspaceVR Apps With A-Frame
 permalink: building-altspacevr-apps-with-a-frame/
 ---
@@ -28,7 +29,7 @@ look at the demo below. In fact, load this page in an enclosure and you’ll see
 
 
 <figure>
-<a-scene embedded altspace='vertical-align: bottom;' style='width: 640px; height: 480px;'><br />
+<a-scene embedded altspace='vertical-align: bottom;' style='height: 480px;'><br />
 	<a-assets><br />
 		<img id='moon' src='/assets/images/moon.jpg'/>
 		<img id='stars' src='/assets/images/stars.png'/>
@@ -54,25 +55,25 @@ This demo was constructed with a mere dozen lines of HTML (plus some boilerplate
 <!-- set up the scene -->
 <a-scene altspace='vertical-align: bottom;'>
 
-    <!-- preload all our textures -->
-    <a-assets>
-        <img id='moon' src='assets/moon.jpg'/>
-        <img id='stars' src='assets/stars.png'/>
-    </a-assets>
+	<!-- preload all our textures -->
+	<a-assets>
+		<img id='moon' src='assets/moon.jpg'/>
+		<img id='stars' src='assets/stars.png'/>
+	</a-assets>
 
-    <!-- add the moon to the scene -->
-    <a-sphere position='0 1.5 0' material='src: #moon;'>
-        <!-- add an animation to make it rotate -->
-        <a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
-    </a-sphere>
+	<!-- add the moon to the scene -->
+	<a-sphere position='0 1.5 0' material='src: #moon;'>
+		<!-- add an animation to make it rotate -->
+		<a-animation to='0 360 0' easing='linear' dur='20000' repeat='indefinite'/>
+	</a-sphere>
 
-    <!-- add the backdrop of stars -->
-    <a-sky src='#stars' radius='2500'></a-sky>
+	<!-- add the backdrop of stars -->
+	<a-sky src='#stars' radius='2500'></a-sky>
 
-    <!-- add a view camera (2d only) -->
-    <a-entity position='0 0 2'>
-        <a-camera></a-camera>
-    </a-entity>
+	<!-- add a view camera (2d only) -->
+	<a-entity position='0 0 2'>
+		<a-camera></a-camera>
+	</a-entity>
 
 </a-scene>
 
@@ -137,7 +138,7 @@ most commonly included components on that entity. For the full list of primitive
 
 ```html
 <a-scene altspace='vertical-align: bottom;'>
-    ...
+	...
 </a-scene>
 ```
 
@@ -150,8 +151,8 @@ AltspaceVR to position our app relative to the floor instead of relative to the 
 
 ```html
 <a-assets>
-    <img id='moon' src='assets/moon.jpg'/>
-    <img id='stars' src='assets/stars.png'/>
+	<img id='moon' src='assets/moon.jpg'/>
+	<img id='stars' src='assets/stars.png'/>
 </a-assets>
 ```
 
@@ -169,7 +170,7 @@ particular model format.
 
 ```html
 <a-sphere position='0 1.5 0' material='src: #moon;'>
-    ...
+	...
 </a-sphere>
 ```
 
@@ -200,13 +201,13 @@ configurations for animations.
 
 Skyboxes allow you to use an image file as the sky for a scene, and are a quick way to change the ambiance of a scene.
 To add one to your app, you only need to use the `<a-sky>` tag, with the `src` component set to an
-[equirectangular](http://wiki.panotools.org/Panorama_formats) panoramic image. We also need to set the radius of the sky
+[equirectangular](https://wiki.panotools.org/Panorama_formats) panoramic image. We also need to set the radius of the sky
 down to 2500, so that it doesn’t conflict with the more distant default skybox.
 
 # What’s Next?
 
 So that’s it! You should now know how to set up your very own simple AltspaceVR app with A-Frame. If you want to keep
-learning, we recommend you look at these [A-Frame examples](http://altspacevr.github.io/aframe/examples/) in-game, find
+learning, we recommend you look at these [A-Frame examples](https://altspacevr.github.io/aframe/examples/) in-game, find
 one that interests you, and examine its source code. If you’re looking for specific information, again, look us up on
 [Slack](https://altspacevr-slackin.herokuapp.com/), and we’ll walk
 you through whatever difficulty you’re having.

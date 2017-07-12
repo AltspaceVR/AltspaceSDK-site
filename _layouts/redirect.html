@@ -3,14 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="Refresh" content="0;URL='{{ page.redirect }}'" />
+		<link rel="canonical" href="{{ page.redirect.to }}">
+		<meta http-equiv="Refresh" content="0;URL='{{ page.redirect.to }}'" />
+		<meta name="robots" content="noindex">
 		<title>Redirecting...</title>
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision }}">
 	</head>
 	<body>
 		<h1 class="centered">
-			Redirecting you to <a href="{{ page.redirect }}">{{ page.message }}</a><br/>...
+			Redirecting you to <a href="{{ page.redirect.to }}">{{ page.redirect.message | default: page.title }}</a><br/>...
 		</h1>
+		<script>window.location="{{ page.redirect.to }}"</script>
 	</body>
 </html>

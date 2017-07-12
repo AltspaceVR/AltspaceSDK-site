@@ -1,4 +1,5 @@
 ---
+parent: Get Started
 title: Apps, Enclosures, and Displays
 permalink: apps-enclosures-and-displays/
 ---
@@ -18,7 +19,7 @@ available options on those app containers.
 AltspaceVR events and activities typically have one or more spaces designated for apps. These are called _enclosures_
 in general, or _displays_ when they’re flat. The controls for these enclosures/displays are only available to the host
 of an event, and to users flagged as developers. You can apply for this developer flag
-[here](https://goo.gl/forms/7eenwpypxky34UKk2). If you are neither of these, you will still see apps and webpages in
+[here](/devflag). If you are neither of these, you will still see apps and webpages in
 the enclosures, but not control them.
 
 <figure>
@@ -58,9 +59,9 @@ unlocked the enclosure.
 What good are enclosures if there’s nothing to put in them? Here are some apps, demos, and examples that you might
 find interesting:
 
-*   [AltspaceVR SDK Examples](http://altspacevr.github.io/AltspaceSDK/examples/)
-*   [A-Frame Examples](http://altspacevr.github.io/aframe/examples/)
-*   [Community-submitted Apps](http://tinyurl.com/altvrsdkapps)
+*   [AltspaceVR SDK Examples](https://altspacevr.github.io/AltspaceSDK/examples/)
+*   [A-Frame Examples](https://altspacevr.github.io/aframe/examples/)
+*   [Community-submitted Apps](https://tinyurl.com/altvrsdkapps)
 
 ## What’s Next?
 
