@@ -4,3 +4,4 @@ permalink: pretty
 paginate: 4
 paginate_path: '/blog/page:num/'
 excerpt_separator: '<!--more-->'
+exclude: ['Gemfile', 'Gemfile.lock', 'scripts', 'README.md', 'vendor']

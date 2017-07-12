@@ -1,0 +1,4 @@
+install: scripts/install-dependencies.sh
+script: scripts/build.sh
+env:
+- DEV_SITE_BUCKET=test-dev-site.altvr.com
