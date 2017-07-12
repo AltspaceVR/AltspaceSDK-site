@@ -12,7 +12,7 @@ title: Blog
                 <div class="details">
                     <h2 class="title">{{ post.title }}</h2><br />
                     <span class="date">{{ post.date | date: "%e %B %Y" }}</span>
-                    <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30, '' }} ...</p>
+                    <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30, '' }}&nbsp;...</p>
                 </div>
             </div>
         </a>
