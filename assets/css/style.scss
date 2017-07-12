@@ -28,6 +28,12 @@ header {
     position: relative;
     padding: 0;
 
+    @media screen and (max-width: 768px) {
+        .logo {
+            width: 255px;
+        }
+    }
+
     li {
         float: none;
         width: auto;
@@ -43,7 +49,7 @@ header {
     .navbar-toggle {
         border: 1px solid $linkHover;
         border-radius: 0;
-        margin: 2em;
+        margin: 1.5em;
         &.collapsed, & .icon-bar {
             border-color: $link;
         }
@@ -144,7 +150,6 @@ aside {
     @media screen and (min-width: 768px) {
         height: 340px;
     }
-
     @media screen and (max-width: 768px) {
         height: 200px;
     }
