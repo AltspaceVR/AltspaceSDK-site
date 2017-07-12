@@ -204,7 +204,7 @@ To add one to your app, you only need to use the `<a-sky>` tag, with the `src` c
 [equirectangular](https://wiki.panotools.org/Panorama_formats) panoramic image. We also need to set the radius of the sky
 down to 2500, so that it doesn’t conflict with the more distant default skybox.
 
-# What’s Next?
+## What’s Next?
 
 So that’s it! You should now know how to set up your very own simple AltspaceVR app with A-Frame. If you want to keep
 learning, we recommend you look at these [A-Frame examples](https://altspacevr.github.io/aframe/examples/) in-game, find
