@@ -20,6 +20,7 @@ function onYouTubeIframeAPIReady() {
         videoId: '5nVXwuKwcJ8',
         playerVars: {
             loop: 1,
+            playlist: '5nVXwuKwcJ8',
             rel: 0,
             controls: 0,
             showinfo: 0,
