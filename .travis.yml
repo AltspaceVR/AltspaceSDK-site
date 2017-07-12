@@ -1,3 +1,6 @@
+language: ruby
+rvm:
+  - 2.2
 install: ./scripts/install-dependencies.sh
 script: ./scripts/build.sh
 env:
