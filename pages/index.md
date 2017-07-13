@@ -23,7 +23,7 @@ permalink: /
         <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started</a></li>
         <li><a href="/slack"><i class="fa fa-slack fa-3x"></i>Slack Community</a></li>
         <li><a href="https://github.com/AltspaceVR/AltspaceSDK"><i class="fa fa-github fa-3x"></i>AltspaceVR on GitHub</a></li>
-        <li><a href="https://developer.altvr.com/documentation"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
+        <li><a href="https://altspacevr.github.io/AltspaceSDK/doc/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
         <li><a href="https://account.altvr.com/channels/618390937936069458"><i class="fa fa-calendar fa-3x"></i>SDK Meetup</a></li>
     </ol>
 
