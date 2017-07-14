@@ -28,11 +28,11 @@ header {
     position: relative;
     padding: 0;
 
-    @media screen and (max-width: 768px) {
-        .logo {
-            width: 220px;
-        }
+    &.navbar {
+        margin-bottom: 0;
     }
+
+    .logo { width: 180px; }
 
     li {
         float: none;
@@ -63,7 +63,7 @@ section {
     float: none;
     width: auto;
     padding: 0;
-    margin: 2em 0 5em 0;
+    margin: 0 0 5em 0;
     border: none;
 }
 
@@ -124,7 +124,7 @@ footer ol, ol.banner, ol.cta, ol.posts, ol.recent-posts {
 }
 
 hr {
-    margin: 2em;
+    margin: 1em;
 }
 
 aside {
@@ -132,7 +132,7 @@ aside {
 }
 
 div.wrapper {
-    width: 1024px;
+    width: 1000px;
     padding: 0.4em;
     @media print, screen and (max-width: 960px) {
         width: auto;
@@ -157,7 +157,7 @@ div.wrapper {
 
 @mixin bannerHeight {
     @media screen and (min-width: 768px) {
-        height: 340px;
+        height: 390px;
     }
     @media screen and (max-width: 768px) {
         height: 200px;
@@ -203,7 +203,7 @@ div.wrapper {
     @include bannerHeight;
     width: 100%;
     @media screen and (min-width: 768px) {
-        transform: translateY(90px) scale(1.7);
+        transform: translateY(60px) scale(1.5);
     }
     @media screen and (max-width: 768px) {
         transform: translateY(0) scale(1);
@@ -216,7 +216,8 @@ div.wrapper {
     position: absolute;
 }
 
-.cta {
+ol.cta {
+    margin-top: 1em;
     li {
         display: inline-block;
         border: 1px solid grey;

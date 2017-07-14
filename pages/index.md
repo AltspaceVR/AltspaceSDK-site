@@ -17,8 +17,6 @@ permalink: /
         </li>
     </ol>
 
-    <hr/>
-
     <ol class="cta">
         <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started</a></li>
         <li><a href="/slack"><i class="fa fa-slack fa-3x"></i>Slack Community</a></li>
@@ -26,8 +24,6 @@ permalink: /
         <li><a href="https://altspacevr.github.io/AltspaceSDK/doc/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
         <li><a href="https://account.altvr.com/channels/618390937936069458"><i class="fa fa-calendar fa-3x"></i>SDK Meetup</a></li>
     </ol>
-
-    <hr/>
 
     <h1>Welcome to the AltspaceVR Developer Portal!</h1>
 
