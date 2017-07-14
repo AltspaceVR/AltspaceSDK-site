@@ -2,19 +2,19 @@
 Content for https://developer.altvr.com/
 
 ## Folder Structure
-- _layouts/
+- `_layouts/`  
 	Templates used for most of the site content.
-- _posts/
+- `_posts/`  
 	Content for blog posts.
-- assets/
+- `assets/`  
 	Static content css, fonts, images, js and videos. Includes third-party content. Main stylesheet is `style.scss`.
-- blog/
+- `blog/`  
 	Template for the blog listing.
-- pages/
+- `pages/`  
 	Content for site articles.
-- redirects/
+- `redirects/`  
 	Custom redirects to external sites.
-- scripts/
+- `scripts/`  
 	Installation, build and deploy scripts.
 
 ## Deployment
