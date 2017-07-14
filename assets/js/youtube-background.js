@@ -1,5 +1,5 @@
 (function () {
-var player, playerRetry;
+var player, playerRetry, motto;
 
 function setupPlayer (event) {
     window.player = player = event.target;
@@ -13,6 +13,14 @@ function playVideo () {
     player.getIframe().classList.remove('hidden');
     player.getIframe().classList.add('animated', 'fadeIn');
     player.playVideo();
+}
+
+function hideMottoAndPlayVideo(event) {
+    // ignore events bubbled from descendant animations.
+    if (event.target !== motto) { return; }
+    motto.style.display = 'none';
+    if (player) { playVideo(); }
+    else { playerRetry = setInterval(playVideo, 500); }
 }
 
 function onYouTubeIframeAPIReady() {
@@ -29,13 +37,9 @@ function onYouTubeIframeAPIReady() {
         },
         events: { onReady: setupPlayer }
     });
-    var motto = document.querySelector('.motto');
-    motto.addEventListener('animationend', function (event) {
-        if (event.target !== motto) { return; }
-        motto.style.display = 'none';
-        if (player) { playVideo(); }
-        else { var playerRetry = setInterval(playVideo, 500); }
-    });
+    motto = document.querySelector('.motto');
+    motto.addEventListener('animationend', hideMottoAndPlayVideo);
+    motto.addEventListener('webkitAnimationEnd', hideMottoAndPlayVideo);
 }
 window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 }());

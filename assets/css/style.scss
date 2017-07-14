@@ -177,6 +177,7 @@ div.wrapper {
     background-size: cover;
     display: block;
     animation-delay: 7s;
+    -webkit-animation-delay: 7s;
     @media screen and (min-width: 768px) {
         padding: 6em 0;
     }
@@ -194,10 +195,10 @@ div.wrapper {
 .motto-phrase {
     font-size: 16pt;
 }
-#motto-1 { animation-delay: 1s; }
-#motto-2 { animation-delay: 2s; }
-#motto-3 { animation-delay: 3s; }
-#motto-4 { animation-delay: 4s; display: block; }
+#motto-1 { animation-delay: 1s; -webkit-animation-delay: 1s; }
+#motto-2 { animation-delay: 2s; -webkit-animation-delay: 2s; }
+#motto-3 { animation-delay: 3s; -webkit-animation-delay: 3s; }
+#motto-4 { animation-delay: 4s; -webkit-animation-delay: 4s; display: block; }
 
 #reel {
     @include bannerHeight;
