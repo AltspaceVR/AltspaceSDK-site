@@ -94,7 +94,10 @@ The simplest option is to host your project locally, on your own computer. This 
 AltspaceVR, but you will be the only one to see it. Because your friends can’t access your computer, they can’t download
 your app to run it, so the enclosure will appear blank to them. This is an acceptable trade-off in many cases where a
 two-stage publishing process is used, i.e. develop locally, then upload to a server for public consumption. To host
-locally, you will need a local web server like [Prepros](https://prepros.io/) on your computer. Run the web server, then
+locally, you will need a local web server like Prepros
+([Windows](http://prepros.io.s3.amazonaws.com/installers/Prepros-Windows-5.10.2.exe),
+[Mac](http://prepros.io.s3.amazonaws.com/installers/Prepros-Mac-5.10.2.zip))
+on your computer. Run the web server, then
 enter the URL `http://localhost:7878` into the AltspaceVR enclosure. See the [Local Development Tutorial](/local-dev/)
 for details on how to set this up.
 
