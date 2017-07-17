@@ -2,8 +2,8 @@ language: ruby
 rvm:
 - 2.2
 cache:
-- bundler
-- pip
+  directories:
+  - vendor/bundle
 install: "./scripts/install-dependencies.sh"
 script: "./scripts/build-and-deploy.sh"
 env:
