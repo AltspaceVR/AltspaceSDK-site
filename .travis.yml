@@ -4,6 +4,7 @@ rvm:
 cache:
   directories:
   - vendor/bundle
+  - $HOME/.local/lib/python2.7/site-packages
 install: "./scripts/install-dependencies.sh"
 script: "./scripts/build-and-deploy.sh"
 env:
@@ -20,4 +21,3 @@ notifications:
     secure: GoMIXGR0Ke8/kE5yyQp3OoQF7+HRIKO0ybqHOP1Z/ZmJLPVQ3H3YPtxkkbQPwD4GJokp3+AcKxEqELHdSQ5G5Z3RbYoQtXb014U12rCsOvfYoa3glEZADijO5zAnKAhRP3JXkNQaqJQk1HBFZK2P0g4gdHHKcAxpLhSg2tERIB9UIPrQODKS0h8YaP1Qmj4GxQ/8oMxrYHFjz3+pBQm20gDGCRCPhnF8kvG4g2AXdl6nfNWkxkO/UmKdkc0Zm/NLSUXWOGxNIDySmOEPfnAclYo+EIHDl2dHozEWVYdVJaHnT63tKtP3Xy1dsQVIZvrib69G9HV6XcNOus4/M4d6a4xNyW44PI5t3ns1Y3QC7EGXjdIGMlLGahPCVsNl56yWksoTQ5hmOhCNbeJ+N5oUbJVcsoAAT0gJvKozcENldOAx9cgKJccxk8Px4sRGCDAmLIzJyM4JQbR+wurqjj858Drk7QvbboOC++rFcprGKyw6d1uarhSbWi2ViQtCs/P3aH6KrAUlJmLuM+YhphvXWLy02Vgi1dMO+4DSlbzvhkcUi1SCENNJGJKk8cjra1xOpF7uQ6iKlf4wUF11WHrFfpAlwQgPtSQkymwp2bXRTAMTlR1eqWgyVsbBQR/B2+MATwZQKo+jytPAlAA/D5rWpvzcpNlZN816ztO+QAs3tRc=
     on_success: always
     on_failure: always
-    template: "Deployed [%{commit} \"%{commit_subject}\"](https://github.com/%{repository_slug}/tree/%{commit}) to https://developer.altvr.com (by %{author})"
