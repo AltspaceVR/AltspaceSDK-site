@@ -18,5 +18,7 @@ branches:
 notifications:
   slack:
     secure: MMVv8Iq6G8Jn94sOaKGBzjrBW9z8DRf/gXgUsrPWHMUDcCzo5bsRCJRStgfkQUNmsGn4b34kNhtLCqIMMul4mfyItpD3tni4SNistPvbjd163jqPhVPKmeWC5+LwOBMXokfp9uQmjKGZvYyyqHM2YukIT7An7RnUNyu7Kmv+Hr1gqwZsShKDIpgK7kcZB2TJFLXp4UZMpQGTyw97enRxPW51dabE+TEVziX/wvmIVe1n8T7H8tvEbtgXpMjIWiPQOcQsLRfOp75oZxNzDVFu8dZPUHzkIGjikTnuaF0x7w5rGtipDUermEVtzE8zEaMhViAXYKN5PXobpbqjLB/LzrNNUq8OUe5bveSGKXhs84+uQYLJ3+PXvd1SHsBC8oo4pAFTcwzS9W6pqsjbMDyK2IYuZ8hxQhqleXEVPzCByn+Clc6Kt4e8A90Fv/ChGH89wUNl6h3bQNi0gRUaU0fyQgsHtPGBqpzeUeGSZy6U3Qmkc8MbPG1PonSJLxmHvOEKmRde/YqqKhMZM5JUr9GQiqvVbUc1h3KPbs99/Kk05KWXVBPeXKkTjJxLK3GyUyXytufGS2TiRXm78VCfsN6h/F6lPyUOTrv30SneIjEnBdxY7HTukhNcIZGfZcpgbD9oq78QFK60UzTKaTm9mFnSk7nCYcLmAOnQHyNCbRYSh8Y=
+    on_success: always
+    on_failure: always
     template:
       - "Deployed [%{commit} \"%{commit_subject}\"](https://github.com/%{repository_slug}/tree/%{commit}) to https://developer.altvr.com (by %{author})"
