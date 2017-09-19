@@ -2,6 +2,6 @@
 layout: redirect
 permalink: slack/
 redirect:
-    to: http://slackin.altvr.net/
+    to: http://sdk-slackin.altvr.com/
     message: the AltspaceVR SDK Slack
 ---
