@@ -38,8 +38,7 @@ have been unlocked by the host.
 For security reasons, an enclosure's current page will only be shared with the other users in the room under certain circumstances.
 Specifically, if the site's hostname is included in the space's default set of apps and pages (the space's *layout*).
 For example, if the default URL is `https://developer.altvr.com`, you could browse to `https://developer.altvr.com/get-started/`,
-but not to `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in
-the layout but `github.com` is not.
+but not to `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in the layout but `github.com` is not.
 
 There are three ways you can add a URL to your space's layout: 
 
@@ -63,6 +62,11 @@ Enclosures have the same basic controls as the standard web browser, plus a coup
 *   ![](/assets/images/search.png) Search – Search Google for the entered text
 *   ![](/assets/images/stop.png) Clear URL – Clear the contents of the URL bar
 *   ![](/assets/images/home.png) Home – Go to the default page for this enclosure
+
+Developers also have access to special controls:
+
+* ![](/assets/images/bug.png) Debug - Launch the Coherent debugger, or prompt to download it
+* ![](/assets/images/profiler.png) Profile - View statistics about the running app
 
 ## Personal Browser and Beaming
 
