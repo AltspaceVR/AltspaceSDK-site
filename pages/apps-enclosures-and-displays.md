@@ -33,6 +33,16 @@ website (a.k.a. an app), and it will display in 3d. Depending on the app, you ma
 or with the other players through it. You can only see enclosures/displays in your own spaces though, or spaces that
 have been unlocked by the host.
 
+## Allowed URLs
+
+For security reasons, an enclosure's current page will only be shared with the other users in the room under certain circumstances.
+Specifically, if the site's hostname is included in the space's default set of apps and pages (the space's *layout*).
+For example, if the default URL is `https://developer.altvr.com`, you could browse to `https://developer.altvr.com/get-started/`,
+but not to another link on that page, `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in
+the layout but `github.com` is not.
+
+There are three ways you can create spaces with your own URLs in AltspaceVR: ![](/assets/images/PortalNoBG.png)
+
 ## Enclosure Controls
 
 Enclosures have the same basic controls as the standard web browser, plus a couple enclosure-specific ones:
