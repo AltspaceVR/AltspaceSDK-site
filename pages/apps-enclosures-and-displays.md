@@ -38,10 +38,18 @@ have been unlocked by the host.
 For security reasons, an enclosure's current page will only be shared with the other users in the room under certain circumstances.
 Specifically, if the site's hostname is included in the space's default set of apps and pages (the space's *layout*).
 For example, if the default URL is `https://developer.altvr.com`, you could browse to `https://developer.altvr.com/get-started/`,
-but not to another link on that page, `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in
+but not to `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in
 the layout but `github.com` is not.
 
-There are three ways you can create spaces with your own URLs in AltspaceVR: ![](/assets/images/PortalNoBG.png)
+There are three ways you can add a URL to your space's layout: 
+
+1. In private events, this same-origin policy is not enforced, so you can simply type your desired websites right into enclosures/displays
+    and it will work.
+2. For public events, you can fill in the **Public Display URL** or **Public Enclosure URL** fields in the event creation form.
+    If you need the ability to browse different sites than these, fill in the **Advanced** section at the bottom of the form with
+    additional URLs, one per line. This will let you type or beam those URLs.
+3. Developers can create a Web Space party portal (![](/assets/images/PortalNoBG.png) in your HUD), which prompts you to
+    enter a fullspace app URL.
 
 ## Enclosure Controls
 
