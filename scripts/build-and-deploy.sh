@@ -2,7 +2,7 @@ echo 'building site'
 bundle exec jekyll build
 
 export AWS='~/.local/lib/python2.7/site-packages/awscli/bin/aws'
-
+which aws
 echo 'uploading'
 expires=$(date -d 'next year' -uR)
 "$AWS" s3 sync _site s3://$DEV_SITE_BUCKET --acl public-read --expires "$expires"
