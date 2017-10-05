@@ -33,6 +33,23 @@ website (a.k.a. an app), and it will display in 3d. Depending on the app, you ma
 or with the other players through it. You can only see enclosures/displays in your own spaces though, or spaces that
 have been unlocked by the host.
 
+## Allowed URLs
+
+For security reasons, an enclosure's current page will only be shared with the other users in the room under certain circumstances.
+Specifically, if the site's hostname is included in the space's default set of apps and pages (the space's *layout*).
+For example, if the default URL is `https://developer.altvr.com`, you could browse to `https://developer.altvr.com/get-started/`,
+but not to `https://github.com/AltspaceVR/AltspaceSDK`, because `developer.altvr.com` is in the layout but `github.com` is not.
+
+There are three ways you can add a URL to your space's layout: 
+
+1. In private events, this same-origin policy is not enforced, so you can simply type your desired websites right into enclosures/displays
+    and it will work.
+2. For public events, you can fill in the **Public Display URL** or **Public Enclosure URL** fields in the event creation form.
+    If you need the ability to browse different sites than these, fill in the **Advanced** section at the bottom of the form with
+    additional URLs, one per line. This will let you type or beam those URLs.
+3. Developers can create a Web Space party portal (![](/assets/images/PortalNoBG.png) in your HUD), which prompts you to
+    enter a fullspace app URL.
+
 ## Enclosure Controls
 
 Enclosures have the same basic controls as the standard web browser, plus a couple enclosure-specific ones:
@@ -45,6 +62,11 @@ Enclosures have the same basic controls as the standard web browser, plus a coup
 *   ![](/assets/images/search.png) Search – Search Google for the entered text
 *   ![](/assets/images/stop.png) Clear URL – Clear the contents of the URL bar
 *   ![](/assets/images/home.png) Home – Go to the default page for this enclosure
+
+Developers also have access to special controls:
+
+* ![](/assets/images/bug.png) Debug - Launch the Coherent debugger, or prompt to download it
+* ![](/assets/images/profiler.png) Profile - View statistics about the running app
 
 ## Personal Browser and Beaming
 

@@ -23,10 +23,11 @@ created a [starter project](https://github.com/AltspaceVR/altspace-webpack-start
         (and also live-reload your changes!), but you’re free to use your favorite web development tools instead._
 4. Create a space for testing your app by visiting our
     [event creation page](https://account.altvr.com/users/my/events) in your desktop browser.
-5. Click on “Start a Quick Event”.
-6. Pick the “SDK Testing Medium App” environment.
-    * _The “SDK Testing Large App” environment can be used to create apps that fill an entire space, but some of the
+5. Click on "Start a Quick Event".
+6. Pick the "Conference Room" environment.
+    * _The "SDK Playground (empty) [BETA]" environment can be used to create apps that fill an entire space, but some of the
         examples may not work well there._
+7. Enter "http://localhost:7878" into the Public Enclosure URL field.
 7. Click “Create Event”.
 8. Click “Enter Now”.
 9. AltspaceVR should launch and you will be automatically placed in your testing space.
@@ -44,10 +45,7 @@ created a [starter project](https://github.com/AltspaceVR/altspace-webpack-start
 
 ## Inspect your app
 
-1. Download the Coherent Debugger, which is essentially a remote Chrome inspector for the AltspaceVR browser.
-    * Mac: [Mac Debugger Link](https://sdk.altvr.com/debugger/DebuggerMacOSX.zip)
-        * _**Note:** The debugger will not run if you rename it from “Debugger.app” after you extract it._
-    * Windows: [Windows Debugger Link](https://sdk.altvr.com/debugger/DebuggerWindows.zip)
+1. Install the Coherent Debugger, which is essentially a remote Chrome inspector for the AltspaceVR browser, by clicking the Debug button (![](/assets/images/bug.png)).
 2. Start the debugger.
 3. Find and select the title of your app in the list
     * _**Note:** It’s a good idea to use a recognizable title in your app, so that you can find it easily in the debugger_
