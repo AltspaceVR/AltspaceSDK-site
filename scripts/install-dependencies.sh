@@ -1,2 +1,2 @@
 bundle install --verbose
-pip install awscli
+pip install --user awscli
