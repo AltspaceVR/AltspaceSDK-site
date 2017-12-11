@@ -2,6 +2,6 @@
 layout: redirect
 permalink: devflag/
 redirect:
-    to: 'https://docs.google.com/forms/d/e/1FAIpQLSeAscvcHzyazbXxj6a1HgagfMzWXcBH32e-_eaCo1LxsSV0jg/viewform'
+    to: 'https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzzKmjfET9xJqvgmWErviVZUMzRCTzc1NjRGVTRXNjVJQktNTlhDQlpERCQlQCN0PWcu'
     message: the developer registration form
 ---
