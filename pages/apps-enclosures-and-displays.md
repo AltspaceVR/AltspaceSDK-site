@@ -50,7 +50,7 @@ There are three ways you can add a URL to your space's layout:
 3. Developers can create a Web Space party portal (![](/assets/images/PortalNoBG.png) in your HUD), which prompts you to
     enter a fullspace app URL.
 
-**NOTE**: If your space includes any links for `youtube.com`, you must also add the URL `http://d9cuxpcbk8j8.cloudfront.net` or
+**NOTE**: If your space includes any links for `youtube.com`, you must also add the URL `https://d9cuxpcbk8j8.cloudfront.net` or
 the YouTube video will not work. This is a temporary measure.
 
 ## Enclosure Controls
