@@ -3,7 +3,7 @@ title: AltspaceVR App Guidelines
 permalink: app-guidelines/
 ---
 
-With the release of Altspace on the Gear VR, we're seeing an influx of users on that device. Here are some suggestions that we've written to help guide the creation of new apps to best target these new users and Altspace in general:
+Brainstorming ideas for an app? Think about these pointers when you're shaping your concept.
 
 * Keep it __simple__! Build something that you can release soon, so that our new influx of users can try it.
 * Build your app so that a small group (ideally for 2-6 people) can use it. It should take advantage of Altspace's __social__ aspect and it should be __fun__!
