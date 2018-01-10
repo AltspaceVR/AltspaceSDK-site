@@ -1,4 +1,7 @@
-# Using your own Firebase server
+---
+title: Using your own Firebase server
+permalink: personal-firebase-server/
+---
 
 1. Your app must use Altspace SDK version 0.13.2 or higher
 1. Log into the [Firebase console](https://console.firebase.google.com/) (You neeed a Google Account for this)

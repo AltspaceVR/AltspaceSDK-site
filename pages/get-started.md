@@ -3,7 +3,9 @@ title: Get Started
 permalink: get-started/
 ---
 
-Welcome to the AltspaceVR Software Development Kit! These tutorials will help you get started:
+Welcome to the AltspaceVR Software Development Kit! Use these resources to get your project off the ground.
+
+## Tutorials
 
 - [Apps, Enclosures, and Displays Tutorial](/apps-enclosures-and-displays)<br/>
     SDK apps are contained in "enclosures". This tutorial shows you how to use them.
@@ -12,7 +14,7 @@ Welcome to the AltspaceVR Software Development Kit! These tutorials will help yo
 - [Hosting Your Apps](/hosting-your-apps)<br/>
     Share your app by hosting it on JS Bin or GitHub.
 
-Other miscellaneous guides:
+## Other miscellaneous guides
 
 - [Local Development Tutorial](/local-dev)<br/>
     Setting up a local web server and building projects with the AltspaceVR SDK!
@@ -23,16 +25,16 @@ Other miscellaneous guides:
 - [Using your own Firebase server](/personal-firebase-server)<br/>
     How to configure your own Firebase instance instead of using the shared one
 
-Videos:
+## Videos
 
-- [3D Model deep dive](https://www.youtube.com/watch?v=HQ1obPrA1Lo)
+- [3D Model deep dive](https://www.youtube.com/watch?v=HQ1obPrA1Lo)<br/>
     Discussing glTF, and how to make performant models for AltspaceVR
-- [Secret Caesar deep dive](https://www.youtube.com/watch?v=nnTlcB6wE6o)
+- [Secret Caesar deep dive](https://www.youtube.com/watch?v=nnTlcB6wE6o)<br/>
     A dive into the code of Secret Caesar, with lessons learned
-- [Headset Up deep dive part 1](https://www.youtube.com/watch?v=aRr4o65S6nI)
+- [Headset Up deep dive part 1](https://www.youtube.com/watch?v=aRr4o65S6nI)<br/>
     First of a discontinued three-part tutorial about the design process behind Headset Up
 
-Examples:
+## Examples
 
 - [Basic Examples](https://github.com/AltspaceVR/AltspaceSDK/tree/master/examples)<br/>
     Simple demos that show off specific features

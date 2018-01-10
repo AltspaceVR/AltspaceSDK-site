@@ -1,4 +1,7 @@
-# AltspaceVR App Guidelines
+---
+title: AltspaceVR App Guidelines
+permalink: app-guidelines/
+---
 
 With the release of Altspace on the Gear VR, we're seeing an influx of users on that device. Here are some suggestions that we've written to help guide the creation of new apps to best target these new users and Altspace in general:
 
