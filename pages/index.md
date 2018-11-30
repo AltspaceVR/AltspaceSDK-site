@@ -19,17 +19,20 @@ permalink: /
 
     <ol class="cta">
         <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started</a></li>
+        <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
+        <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk"><i class="fa fa-github fa-3x"></i>Source Code</a></li>
         <li><a href="/slack"><i class="fa fa-slack fa-3x"></i>Slack Community</a></li>
-        <li><a href="https://github.com/AltspaceVR/AltspaceSDK"><i class="fa fa-github fa-3x"></i>AltspaceVR on GitHub</a></li>
-        <li><a href="https://altspacevr.github.io/AltspaceSDK/doc/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
-        <li><a href="https://account.altvr.com/channels/618390937936069458"><i class="fa fa-calendar fa-3x"></i>SDK Meetup</a></li>
+        <li><a href="https://account.altvr.com/channels/sdk"><i class="fa fa-calendar fa-3x"></i>Meetup Calendar</a></li>
     </ol>
 
     <h1>Welcome to the AltspaceVR Developer Portal!</h1>
 
-    Here you will find resources for the AltspaceVR SDK, which enables the construction of holographic,
-    multi-user web apps and experiences for virtual reality.
-    The AltspaceVR SDK can be used together with three.js and other javascript libraries to create a variety of
-    content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive.
-    New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a>
+    <p>Here you will find resources for the Mixed Reality Extension SDK (MRE for short), which enables the
+    construction of holographic, multi-user web apps and experiences for virtual reality.
+    The MRE SDK can be used together Worlds items and custom glTF models to create a variety of
+    content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive,
+    as well as mobile headsets like the Oculus Go and Google Daydream.
+    New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
+
+    <p>Looking for the old SDK resources? Click <a href='/classic-resources'>here</a>.</p>
 </div>
