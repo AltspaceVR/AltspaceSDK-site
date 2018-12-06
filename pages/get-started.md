@@ -5,8 +5,13 @@ permalink: get-started/
 
 Welcome to the MRE SDK! Use these resources to get your project off the ground.
 
+## Guides
+
+* [Hosting a server](https://github.com/Microsoft/mixed-reality-extension-sdk/blob/master/DEPLOYING.md)
+
 ## Examples
 
-* [Hello World](https://github.com/microsoft/mixed-reality-extension-sdk-samples)
+* [Hello World](https://github.com/Microsoft/mixed-reality-extension-sdk-samples/tree/master/samples/hello-world)
+* [Solar System](https://github.com/Microsoft/mixed-reality-extension-sdk-samples/tree/master/samples/solar-system)
 
 More resources coming soon!
