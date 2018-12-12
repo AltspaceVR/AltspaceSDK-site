@@ -29,7 +29,7 @@ permalink: /
 
     <p>Here you will find resources for the Mixed Reality Extension SDK (MRE for short), which enables the
     construction of holographic, multi-user web apps and experiences for virtual reality.
-    The MRE SDK can be used together Worlds items and custom glTF models to create a variety of
+    The MRE SDK can be used together with Worlds items and custom glTF models to create a variety of
     content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive,
     as well as mobile headsets like the Oculus Go and Google Daydream.
     New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
