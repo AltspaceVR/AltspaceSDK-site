@@ -21,7 +21,7 @@ permalink: /
         <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started</a></li>
         <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
         <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk"><i class="fa fa-github fa-3x"></i>Source Code</a></li>
-        <li><a href="/slack"><i class="fa fa-slack fa-3x"></i>Slack Community</a></li>
+        <li><a href="https://discord.gg/ypvBkWz"><i class="fa fa-comments fa-3x"></i>Discord Community</a></li>
         <li><a href="https://account.altvr.com/channels/sdk"><i class="fa fa-calendar fa-3x"></i>Meetup Calendar</a></li>
     </ol>
 
