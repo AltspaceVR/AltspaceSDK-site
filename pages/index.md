@@ -35,9 +35,9 @@ permalink: /
 
     <p>New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
 
-    <p>Ready to try out the MRE SDK? <a href="/get-started">get started</a></p>
+    <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
 
-    <p>Looking for World Editor, Unity Scene Uploader, or Unity Kit Uploader instructions? <a href="/get-started">look here</a></p>
+    <p>Looking for World Editor, Unity Scene Uploader, or Unity Kit Uploader instructions? <a href="/get-started">Look here</a></p>
 
-    <p>Looking for the old SDK resources? Click <a href='/classic-resources'>here</a>.</p>
+    <p>Looking for the old SDK resources? <a href='/classic-resources'>Click here</a>.</p>
 </div>
