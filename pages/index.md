@@ -18,11 +18,11 @@ permalink: /
     </ol>
 
     <ol class="cta">
-        <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started</a></li>
-        <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fa fa-book fa-3x"></i>Documentation</a></li>
-        <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk"><i class="fa fa-github fa-3x"></i>Source Code</a></li>
-        <li><a href="https://discord.gg/ypvBkWz"><i class="fa fa-comments fa-3x"></i>Discord Community</a></li>
-        <li><a href="https://account.altvr.com/channels/sdk"><i class="fa fa-calendar fa-3x"></i>Meetup Calendar</a></li>
+        <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started with the MRE SDK</a></li>
+        <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk-samples"><i class="fa fa-github fa-3x"></i>MRE Sample Source Code</a></li>
+        <li><a href="https://discord.gg/ypvBkWz"><i class="fa fa-comments fa-3x"></i>MRE SDK Discord Community</a></li>
+        <li><a href="https://account.altvr.com/channels/sdk"><i class="fa fa-calendar fa-3x"></i>AltspaceVR Developer Meetup Calendar</a></li>
+        <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fa fa-book fa-3x"></i>Complete API Documentation</a></li>
     </ol>
 
     <h1>Welcome to the AltspaceVR Developer Portal!</h1>
@@ -31,8 +31,13 @@ permalink: /
     construction of holographic, multi-user web apps and experiences for virtual reality.
     The MRE SDK can be used together with Worlds items and custom glTF models to create a variety of
     content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive,
-    as well as mobile headsets like the Oculus Go and Google Daydream.
-    New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
+    as well as mobile headsets like the Oculus Go and Google Daydream.</p>
 
-    <p>Looking for the old SDK resources? Click <a href='/classic-resources'>here</a>.</p>
+    <p>New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
+
+    <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
+
+    <p>Looking for World Editor, Unity Scene Uploader, or Unity Kit Uploader instructions? <a href="/get-started">Look here</a></p>
+
+    <p>Looking for the old SDK resources? <a href='/classic-resources'>Click here</a>.</p>
 </div>
