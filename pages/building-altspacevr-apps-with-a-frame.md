@@ -14,9 +14,9 @@ in with the [A-Frame Documentation](https://aframe.io/docs/0.3.0/introduction/).
 component to your `<a-scene>` tag. Keep in mind though that development in AltspaceVR has a few
 [caveats](https://github.com/altspacevr/altspacesdk#graphics-feature-support).
 
-In either case, you should join the [AltspaceVR SDK Slack channel](/slack)! We love to see what you’re working on, and
+In either case, you should join the [MRE SDK Discord community](/discord)! We love to see what you’re working on, and
 are always happy to answer questions. In addition, there are special activities available only for developers that may
-be better for apps. Just request developer status on Slack, and we’ll hook you up!
+be better for apps. Just request developer status on the [MRE SDK Discord community](/discord), and we’ll hook you up!
 
 ## What is A-Frame?
 
@@ -212,7 +212,6 @@ down to 2500, so that it doesn’t conflict with the more distant default skybox
 So that’s it! You should now know how to set up your very own simple AltspaceVR app with A-Frame. If you want to keep
 learning, we recommend you look at these [A-Frame examples](https://altspacevr.github.io/aframe/examples/) in-game, find
 one that interests you, and examine its source code. If you’re looking for specific information, again, look us up on
-[Slack](https://altspacevr-slackin.herokuapp.com/), and we’ll walk
-you through whatever difficulty you’re having.
+the [MRE SDK Discord community](/discord), and we’ll walk you through whatever difficulty you’re having.
 
 See you on the other side!
