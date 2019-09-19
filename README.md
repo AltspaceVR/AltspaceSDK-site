@@ -17,6 +17,10 @@ Content for https://developer.altvr.com/
 - `scripts/`
 	Installation, build and deploy scripts.
 
+## Local Testing and Development
+
+See: https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll#step-2-install-jekyll-using-bundler
+
 ## Deployment
 The site is automatically deployed by Travis-CI (https://travis-ci.org/AltspaceVR/AltspaceSDK-site) when you push to
 `master`.
