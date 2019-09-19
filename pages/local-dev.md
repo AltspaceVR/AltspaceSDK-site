@@ -66,4 +66,4 @@ created a [starter project](https://github.com/AltspaceVR/altspace-webpack-start
 3. If you are using a different web server, configure it to use http://localhost:7878 so that you don’t need to change
     the enclosure URL every time.
 4. Have fun and remember that you can always ask questions in our
-    [Slack chat group](/slack).
+    [MRE SDK Discord community](/discord).
