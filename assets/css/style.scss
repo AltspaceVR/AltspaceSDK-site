@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+html {
+    display: flex;
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
     padding: 0;
@@ -10,6 +14,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;    
+    width: 100%;    
 }
 
 $varela: "Varela Round", sans-serif;
