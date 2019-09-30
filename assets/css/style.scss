@@ -3,10 +3,18 @@
 
 @import "{{ site.theme }}";
 
+html {
+    display: flex;
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0;    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;    
+    width: 100%;    
 }
 
 $varela: "Varela Round", sans-serif;
@@ -132,6 +140,8 @@ aside {
 }
 
 div.wrapper {
+    // IE 11 support - '0 auto' prevents footer from being stuck at top of page
+    flex: 1 0 auto; 
     width: 1000px;
     padding: 0.4em;
     @media print, screen and (max-width: 960px) {
