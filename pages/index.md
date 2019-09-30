@@ -18,11 +18,11 @@ permalink: /
     </ol>
 
     <ol class="cta">
-        <li><a href="/get-started"><i class="fa fa-play-circle fa-3x"></i>Get Started with the MRE SDK</a></li>
-        <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk-samples"><i class="fa fa-github fa-3x"></i>MRE Sample Source Code</a></li>
-        <li><a href="https://discord.gg/ypvBkWz"><i class="fa fa-comments fa-3x"></i>MRE SDK Discord Community</a></li>
-        <li><a href="https://account.altvr.com/channels/sdk"><i class="fa fa-calendar fa-3x"></i>AltspaceVR Developer Meetup Calendar</a></li>
-        <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fa fa-book fa-3x"></i>Complete API Documentation</a></li>
+        <li><a href="/get-started"><i class="fas fa-play-circle fa-3x"></i><br/>Get Started with the MRE SDK</a></li>
+        <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk-samples"><i class="fab fa-github fa-3x"></i><br/>MRE Sample Source Code</a></li>
+        <li><a href="https://discord.gg/ypvBkWz"><i class="fas fa-comments fa-3x"></i><br/>MRE SDK Discord Community</a></li>
+        <li><a href="https://account.altvr.com/channels/sdk"><i class="fas fa-calendar fa-3x"></i><br/>AltspaceVR Developer Meetup Calendar</a></li>
+        <li><a href="https://microsoft.github.io/mixed-reality-extension-sdk/"><i class="fas fa-book fa-3x"></i><br/>Complete API Documentation</a></li>
     </ol>
 
     <h1>Welcome to the AltspaceVR Developer Portal!</h1>
