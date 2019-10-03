@@ -22,6 +22,10 @@ Content for https://developer.altvr.com/
 See: https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll#step-2-install-jekyll-using-bundler
 
 ## Deployment
-The site is automatically deployed by Travis-CI (https://travis-ci.org/AltspaceVR/AltspaceSDK-site) when you push to
-`master`.
+The site is automatically deployed by GitHub to GitHub Pages when you push to `master`. Build errors can be seen by repo admins in this repo's Settings.
 
+### GitHub Pages Resources
+
+* [GitHub Help - Working with GitHub Pages](https://help.github.com/en/categories/working-with-github-pages)
+* [GitHub Help - Troubleshooting Jekyll build errors for GitHub Pages sites](https://help.github.com/en/articles/troubleshooting-jekyll-build-errors-for-github-pages-sites)
+* [GitHub Pages - Dependency versions](https://pages.github.com/versions/)
