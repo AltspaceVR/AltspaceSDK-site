@@ -28,4 +28,4 @@ The site is automatically deployed by GitHub to GitHub Pages when you push to `m
 
 * [GitHub Help - Working with GitHub Pages](https://help.github.com/en/categories/working-with-github-pages)
 * [GitHub Help - Troubleshooting Jekyll build errors for GitHub Pages sites](https://help.github.com/en/articles/troubleshooting-jekyll-build-errors-for-github-pages-sites)
-* (GitHub Pages - Dependency versions](https://pages.github.com/versions/)
+* [GitHub Pages - Dependency versions](https://pages.github.com/versions/)
