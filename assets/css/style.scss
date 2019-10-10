@@ -108,6 +108,17 @@ footer {
     .links {
         font-size: 9pt;
         margin: 0 1em;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        padding-left: 0;      
+
+        li {
+            list-style-position: inside;
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }        
     }
 
     .social {
