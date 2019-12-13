@@ -5,7 +5,7 @@ permalink: get-started/
 
 Welcome to the AltspaceVR developer forums. There are multiple ways to add content to AltspaceVR. Here is an overview for them:
 
-## Mixed Reality Extension (MRE) SDK 
+## Mixed Reality Extension (MRE) SDK
 The MRE SDK is the new SDK for building AltspaceVR extensions using Node.JS. To get started:
 1.	Install AltspaceVR (from Steam or Oculus Store), create an AltspaceVR account, and familiarize yourself with the app.
 2.	Install Git command line tools ([install instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
@@ -26,7 +26,9 @@ Inside AltspaceVR, you can use our built-in world editor in your home space. Thi
 If you join the [Early Access program](https://help.altvr.com/hc/en-us/articles/360015270793-What-is-the-Early-Access-Program-), you will also be able to create additional worlds on the [AltspaceVR My Worlds page](https://account.altvr.com/worlds/my).
 
 ## Unity Uploader
-We offer a Unity uploader for both worlds and custom kits. This feature is very early in development. To learn more, please join the [World Builders Discord channel](https://discord.gg/Kp59Frb) to chat, or read about it on the [World Building help pages](https://help.altvr.com/hc/en-us/sections/360002939973-World-Building)
+We offer a Unity uploader for both worlds and custom kits. This feature is very early in development. To learn more, please join the [World Builders Discord channel](https://discord.gg/Kp59Frb) to chat, or read about it on the [World Building help pages](https://help.altvr.com/hc/en-us/sections/360002939973-World-Building).
+
+If you have legacy Unity 2018 kits or templates to update to Unity 2019.2, check out the [Upgrade Guide](upgrade-2019-2.md).
 
 ## Integrating the MRE SDK into your own app
 If you have made your own app or game in Unity3D, and want to run MREs inside your app, you should look at the [MRE Unity Client Library](https://github.com/Microsoft/mixed-reality-extension-unity) repository
