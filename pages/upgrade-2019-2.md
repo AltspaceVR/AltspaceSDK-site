@@ -32,7 +32,7 @@ If you have a kit or template project in Unity 2018.1, follow these instructions
     2. Make sure when you install it, you also install Android Build Support, or you won't be able to build/upload Android bundles.
 5. Open your project in Unity 2019.2.12f1. It will warn you that it has to upgrade the project, but click "Confirm".
 6. Wait while Unity upgrades all your assets and meta files.
-7. If you get any "blank errors" in the console after you inport your project, you may be hitting a Unity bug. To fix this, close Unity, open the file `C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat` in a text editor, change "csc" to "csc.exe" in line 3, and save. Reopen Unity, and the error should be gone.
+7. If you get any "blank errors" in the console after you import your project, you may be hitting a Unity bug. To fix this, close Unity, open the file `C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat` in a text editor, change "csc" to "csc.exe" in line 3, and save. Reopen Unity, and the error should be gone.
 8. Build your asset bundles like normal for kits or templates.
 
 **NOTE**: The website kit/template upload form has not yet been updated to accept 2019.2 bundles, and assumes that all bundles uploaded are 2018. This means that if you upload 2019 bundles it will overwrite the live assets. DO NOT USE until this is fixed.
