@@ -34,7 +34,6 @@ If you have a kit or template project in Unity 2018.1, follow these instructions
 6. Wait while Unity upgrades all your assets and meta files.
 7. If you get any "blank errors" in the console after you import your project, you may be hitting a Unity bug. To fix this, close Unity, open the file `C:\Program Files\Unity\Hub\Editor\2019.2.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat` in a text editor, change "csc" to "csc.exe" in line 3, and save. Reopen Unity, and the error should be gone.
 8. Build your asset bundles like normal for kits or templates.
-
-**NOTE**: The website kit/template upload form has not yet been updated to accept 2019.2 bundles, and assumes that all bundles uploaded are 2018. This means that if you upload 2019 bundles it will overwrite the live assets. DO NOT USE until this is fixed.
+9. If you are uploading your bundles via the website, make sure to select "2019" in the Zip Unity Version field.
 
 Congratulations, you've updated your project to Unity 2019.2!
