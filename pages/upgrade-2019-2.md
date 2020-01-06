@@ -20,7 +20,7 @@ Upgrade Instructions
 
 If you have a kit or template project in Unity 2018.1, follow these instructions to update and upload in Unity 2019.2:
 
-1. Make sure you're running Uploader v0.8.3. The in-editor version number has always read "1.0.0", so if you don't remember updating since it came out in November, you'll need to update it:
+1. Make sure you're running Uploader v0.8.3 or later. The in-editor version number has always read "1.0.0", so if you don't remember updating since it came out in November, you'll need to update it:
     1. Download the latest Uploader package from [here](https://altvr.com/download-latest-unity-uploader/).
     2. Open your project (in Unity 2018.1), and delete the `Assets/Altspace` and `Assets/Plugins` directories.
     3. Import the new Uploader package (Assets > Import Package > Custom Package...).
