@@ -13,7 +13,16 @@ Hi everyone! You may have heard by now, AltspaceVR is updating to Unity 2019.2! 
 * The builds we are providing you are preview builds, and thus could have problems. Some of our official spaces, kits, or avatars may not display correctly. As such, we don't recommend using this build for general Altspacing, but only to verify your own content. If you experience any problems with this build other than art/visual problems, please report them like normal, but make it clear in the report that it is in the preview build.
 * Note for Gear/Go/Quest users: Since the preview is not coming from the Oculus Store, you will need to uninstall official Altspace and side-load the provided build. This requires an Oculus developer account and a PC. Instructions for side-loading builds can be found elsewhere online. To switch back to the live build, you will need to uninstall this build via adb, then reinstall Altspace from the store. While the preview build is installed, you will get a nag screen to update when you launch, but ignore this.
 
-And that's it! Without further ado, here's your build: [PC](https://altvr.com/unity-2019-preview-pc/) [Gear/Go](https://altvr.com/unity-2019-preview-go/) [Quest](https://altvr.com/unity-2019-preview-quest/). I have also posted those Go/Quest builds to SideQuest if you prefer to manage builds that way.
+And that's it! Without further ado, here's your build:
+
+Preview Build Downloads
+=======================
+
+* [PC](https://altvr.com/unity-2019-preview-pc/) 
+* [Gear/Go](https://altvr.com/unity-2019-preview-go/) 
+* [Quest](https://altvr.com/unity-2019-preview-quest/)
+
+I have also posted those Go/Quest builds to SideQuest if you prefer to manage builds that way.
 
 Upgrade Instructions
 =====================
