@@ -45,3 +45,10 @@ If you have a kit or template project in Unity 2018.1, follow these instructions
 8. Build your asset bundles like normal for kits or templates.
 
 Congratulations, you've updated your project to Unity 2019.2!
+
+Troubleshooting
+===============
+
+### My assets uploaded correctly but I do not see them in my world
+
+This can happen if your world data has cached your old assets.  You can force-clear this by performing a space reset (via Ctrl+Shift+R in the client) or by editing any of the world's data (such as its name or description) from the website, and then leaving/re-entering the world.
