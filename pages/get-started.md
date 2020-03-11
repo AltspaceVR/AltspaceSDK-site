@@ -25,6 +25,8 @@ Inside AltspaceVR, you can use our built-in world editor in your home space. Thi
 
 If you join the [Early Access program](https://help.altvr.com/hc/en-us/articles/360015270793-What-is-the-Early-Access-Program-), you will also be able to create additional worlds on the [AltspaceVR My Worlds page](https://account.altvr.com/worlds/my).
 
+There is also a [wonderful video by Karnivore23](https://www.youtube.com/watch?v=G8xgR3cDMjk) that covers the end-to-end process of building worlds, including the website, the world editor, and the Unity uploader.
+
 ## Unity Uploader
 We offer a Unity uploader for both worlds and custom kits. This feature is very early in development. To learn more, please join the [World Builders Discord channel](https://discord.gg/Kp59Frb) to chat, or read about it on the [World Building help pages](https://help.altvr.com/hc/en-us/sections/360002939973-World-Building).
 
