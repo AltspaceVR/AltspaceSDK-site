@@ -3,19 +3,6 @@ permalink: /
 ---
 
 <div class="centered">
-    <ol class="banner">
-        <li class="motto animated fadeOut">
-            <span id="motto-1" class="motto-word animated fadeIn">Connect.</span>
-            <span id="motto-2" class="motto-word animated fadeIn">Build.</span>
-            <span id="motto-3" class="motto-word animated fadeIn">Share.</span>
-            <span id="motto-4" class="motto-phrase animated fadeInDown">Welcome to the AltspaceVR developer community</span>
-        </li>
-        <li class="reel-container">
-            <div id="reel" class="hidden"></div>
-            <script src="https://www.youtube.com/iframe_api"></script>
-        </li>
-    </ol>
-
     <ol class="cta">
         <li><a href="/get-started"><i class="fas fa-play-circle fa-3x"></i><br/>Get Started with the MRE SDK</a></li>
         <li><a href="https://github.com/microsoft/mixed-reality-extension-sdk-samples"><i class="fab fa-github fa-3x"></i><br/>MRE Sample Source Code</a></li>
@@ -32,7 +19,7 @@ permalink: /
     content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive,
     as well as mobile headsets such as the Oculus Go.</p>
 
-    <p>New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
+    <p>New to AltspaceVR? <a href="https://altvr.com/get-altspacevr">Download</a></p>
 
     <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
 
