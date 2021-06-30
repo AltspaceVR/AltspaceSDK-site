@@ -18,11 +18,7 @@ permalink: /
     The MRE SDK can be used together with Worlds items and custom glTF models to create a variety of
     experiences.</p>
 
-    <p>New to AltspaceVR? <a href="https://altvr.com/get-altspacevr">Download</a></p>
+    <p><a href="https://altvr.com">New to AltspaceVR?</a></p>
 
-    <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
-
-    <p>Looking for World Editor, Unity Uploader, or Altspace documentation? <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/altspace-vr/">Look here</a></p>
-
-    <p>Looking for the old SDK resources? <a href='/classic-resources'>Click here</a>.</p>
+    <p><a href="https://docs.microsoft.com/en-us/windows/mixed-reality/altspace-vr/">Looking for World Editor, Unity Uploader, or AltspaceVR documentation?</a></p>
 </div>
