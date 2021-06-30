@@ -10,6 +10,10 @@ permalink: /
             <span id="motto-3" class="motto-word animated fadeIn">Share.</span>
             <span id="motto-4" class="motto-phrase animated fadeInDown">Welcome to the AltspaceVR developer community</span>
         </li>
+        <li class="reel-container">
+            <div id="reel" class="hidden"></div>
+            <script src="https://www.youtube.com/iframe_api"></script>
+        </li>
     </ol>
 
     <ol class="cta">
@@ -28,7 +32,7 @@ permalink: /
     content that can be experienced with consumer VR hardware like the Oculus Rift or HTC Vive,
     as well as mobile headsets such as the Oculus Go.</p>
 
-    <p>New to AltspaceVR? <a href="https://altvr.com">Create an account</a></p>
+    <p>New to AltspaceVR? <a href="https://account.altvr.com/users/sign_up">Create an account</a></p>
 
     <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
 
