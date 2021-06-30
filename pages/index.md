@@ -23,7 +23,7 @@ permalink: /
 
     <p>Ready to try out the MRE SDK? <a href="/get-started">Get started</a></p>
 
-    <p>Looking for World Editor, Unity Scene Uploader, or Unity Kit Uploader instructions? <a href="/get-started">Look here</a></p>
+    <p>Looking for World Editor, Unity Uploader, or Altspace documentation? <a href="https://docs.microsoft.com/en-us/windows/mixed-reality/altspace-vr/">Look here</a></p>
 
     <p>Looking for the old SDK resources? <a href='/classic-resources'>Click here</a>.</p>
 </div>
