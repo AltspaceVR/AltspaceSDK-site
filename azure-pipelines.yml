@@ -1,0 +1,17 @@
+# Compliance Pipeline
+# https://aka.ms/yaml
+
+name: altspacesdk-site-compliance 
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+  - task: CredScan@3
+  - task: PostAnalysis@2
+    inputs:
+      GdnBreakAllTools: false
+      GdnBreakGdnToolCredScan: true
